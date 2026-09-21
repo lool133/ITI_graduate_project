@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+backend/.venv/
+venv/
+
+# Frontend dependencies and generated output
+frontend/node_modules/
+frontend/build/
+frontend/.cache/
+
+# Generated RAG data and downloaded corpus
+artifacts/vector_store/
+artifacts/models/
+data/raw/
+data/interim/
+data/page_images/
+*.pdf
+backend/data/vector_store/
+backend/data/pipeline_config.json
+reports/
+
+# Runtime and tool output
+*.log
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
